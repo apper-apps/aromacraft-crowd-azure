@@ -9,7 +9,7 @@
     "description": "A premium blend of Ceylon black tea enhanced with natural bergamot oil and cornflower petals, creating an elevated version of the classic Earl Grey.",
     "essence": "This exquisite Earl Grey Supreme offers a sophisticated twist on the traditional favorite. The Ceylon black tea provides a robust foundation, while the bergamot oil adds bright citrus notes that dance on the palate. The addition of cornflower petals not only creates visual appeal but also contributes a subtle floral sweetness that rounds out the flavor profile beautifully.",
     "brewingInstructions": "Steep 1 teaspoon in 212°F water for 3-5 minutes. For a stronger brew, increase steeping time rather than adding more tea. Best enjoyed with a splash of milk or a slice of lemon.",
-    "imageUrl": "https://images.unsplash.com/photo-1597318985836-5d69b5e66d8b?auto=format&fit=crop&w=600&q=80",
+"imageUrl": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80",
     "prices": [
       { "size": "250g", "weight": 250, "price": 24.99 },
       { "size": "500g", "weight": 500, "price": 45.99 },
@@ -100,7 +100,7 @@
     "description": "Pure Egyptian chamomile flowers creating a naturally caffeine-free herbal tea with soothing properties and honey-like sweetness.",
     "essence": "This premium chamomile tea is crafted from the finest Egyptian chamomile flowers, known for their superior quality and potent calming properties. The golden infusion releases a gentle, apple-like aroma with subtle honey notes. Perfect for evening relaxation, this naturally sweet herbal tea promotes tranquility and restful sleep while delivering a comforting, smooth taste experience.",
     "brewingInstructions": "Use boiling water (212°F) and steep for 5-7 minutes. Use 1-2 teaspoons per cup. Cover while steeping to retain essential oils. Naturally caffeine-free, perfect for any time of day.",
-    "imageUrl": "https://images.unsplash.com/photo-1597318985836-5d69b5e66d8b?auto=format&fit=crop&w=600&q=80",
+"imageUrl": "https://images.unsplash.com/photo-1587593810167-a84920ea0781?auto=format&fit=crop&w=600&q=80",
     "prices": [
       { "size": "250g", "weight": 250, "price": 19.99 },
       { "size": "500g", "weight": 500, "price": 36.99 },
