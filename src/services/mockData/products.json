@@ -1,0 +1,221 @@
+[
+  {
+    "Id": 1,
+    "name": "Earl Grey Supreme",
+    "type": "tea",
+    "origin": "Sri Lanka",
+    "aromaProfile": ["Bergamot", "Citrus", "Floral", "Lavender"],
+    "flavorNotes": ["Bold", "Citrusy", "Smooth", "Aromatic"],
+    "description": "A premium blend of Ceylon black tea enhanced with natural bergamot oil and cornflower petals, creating an elevated version of the classic Earl Grey.",
+    "essence": "This exquisite Earl Grey Supreme offers a sophisticated twist on the traditional favorite. The Ceylon black tea provides a robust foundation, while the bergamot oil adds bright citrus notes that dance on the palate. The addition of cornflower petals not only creates visual appeal but also contributes a subtle floral sweetness that rounds out the flavor profile beautifully.",
+    "brewingInstructions": "Steep 1 teaspoon in 212°F water for 3-5 minutes. For a stronger brew, increase steeping time rather than adding more tea. Best enjoyed with a splash of milk or a slice of lemon.",
+    "imageUrl": "https://images.unsplash.com/photo-1597318985836-5d69b5e66d8b?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 24.99 },
+      { "size": "500g", "weight": 500, "price": 45.99 },
+      { "size": "1kg", "weight": 1000, "price": 85.99 },
+      { "size": "2kg", "weight": 2000, "price": 159.99 }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "Dragon Well Green Tea",
+    "type": "tea",
+    "origin": "China",
+    "aromaProfile": ["Grassy", "Fresh", "Nutty", "Sweet"],
+    "flavorNotes": ["Delicate", "Vegetal", "Smooth", "Clean"],
+    "description": "Premium Longjing green tea from the hills of Hangzhou, featuring flat, sword-shaped leaves that produce a delicate, refreshing cup.",
+    "essence": "Dragon Well, or Longjing, is one of China's most celebrated green teas. This exceptional grade showcases the perfect balance of sweet and savory notes, with a distinctive flat-leaf shape achieved through traditional hand-processing techniques. The tea liquor is pale green with a fresh, clean taste that embodies the essence of spring.",
+    "brewingInstructions": "Use 175°F water and steep for 2-3 minutes. Use 1 teaspoon per cup. Can be re-steeped 2-3 times, with each infusion revealing new layers of flavor.",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 32.99 },
+      { "size": "500g", "weight": 500, "price": 59.99 },
+      { "size": "1kg", "weight": 1000, "price": 109.99 },
+      { "size": "2kg", "weight": 2000, "price": 199.99 }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Ethiopian Yirgacheffe",
+    "type": "coffee",
+    "origin": "Ethiopia",
+    "aromaProfile": ["Floral", "Wine-like", "Bright", "Complex"],
+    "flavorNotes": ["Bright Acidity", "Fruity", "Wine-like", "Clean"],
+    "description": "Single-origin coffee from the birthplace of coffee, featuring bright acidity and distinctive wine-like characteristics with floral undertones.",
+    "essence": "Yirgacheffe represents the pinnacle of Ethiopian coffee craftsmanship. This washed-process coffee delivers an extraordinary cup with bright, wine-like acidity and complex floral notes. The high-altitude growing conditions and traditional processing methods create a coffee that is both delicate and intensely flavorful, with a clean finish that lingers pleasantly.",
+    "brewingInstructions": "Medium-fine grind, 195-205°F water. Pour-over method recommended. Use 1:15 ratio (coffee to water). Bloom for 30 seconds, then pour in slow, circular motions.",
+    "imageUrl": "https://images.unsplash.com/photo-1610889556528-9a770e32642f?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 28.99 },
+      { "size": "500g", "weight": 500, "price": 52.99 },
+      { "size": "1kg", "weight": 1000, "price": 95.99 },
+      { "size": "2kg", "weight": 2000, "price": 179.99 },
+      { "size": "5kg", "weight": 5000, "price": 424.99 }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Himalayan Gold Oolong",
+    "type": "tea",
+    "origin": "Nepal",
+    "aromaProfile": ["Honey", "Floral", "Fruity", "Muscatel"],
+    "flavorNotes": ["Complex", "Sweet", "Fruity", "Lingering"],
+    "description": "High-altitude oolong from the Himalayas, offering a perfect balance between green and black tea characteristics with honey-like sweetness.",
+    "essence": "Grown at elevations exceeding 6,000 feet, this remarkable oolong combines the best qualities of both green and black teas. The unique terroir of the Himalayas imparts a distinctive honey-like sweetness and complex flavor profile that evolves with each sip. The partially oxidized leaves create a beautiful amber liquor with exceptional depth and character.",
+    "brewingInstructions": "Use 185°F water and steep for 3-4 minutes for the first infusion. Can be re-steeped 4-5 times, with each brewing revealing new flavor dimensions. Use 1 teaspoon per cup.",
+    "imageUrl": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 42.99 },
+      { "size": "500g", "weight": 500, "price": 79.99 },
+      { "size": "1kg", "weight": 1000, "price": 149.99 },
+      { "size": "2kg", "weight": 2000, "price": 279.99 }
+    ]
+  },
+  {
+    "Id": 5,
+    "name": "Blue Mountain Supreme",
+    "type": "coffee",
+    "origin": "Jamaica",
+    "aromaProfile": ["Mild", "Sweet", "Balanced", "Refined"],
+    "flavorNotes": ["Smooth", "Mild", "Well-balanced", "Clean"],
+    "description": "The legendary Blue Mountain coffee from Jamaica, renowned for its mild flavor, perfect balance, and exceptional smoothness.",
+    "essence": "Jamaica Blue Mountain is often considered the Rolls-Royce of coffees. Grown in the Blue Mountains at elevations between 3,000-5,500 feet, this coffee is meticulously hand-picked and processed. The result is an exceptionally smooth, mild coffee with perfect balance and no bitterness. Its refined character and clean finish make it a favorite among coffee connoisseurs worldwide.",
+    "brewingInstructions": "Medium grind, 200°F water. French press or drip method works best. Use 1:16 ratio. Steep for 4 minutes in French press or standard drip timing. Enjoy black to appreciate the subtle complexity.",
+    "imageUrl": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 89.99 },
+      { "size": "500g", "weight": 500, "price": 169.99 },
+      { "size": "1kg", "weight": 1000, "price": 319.99 },
+      { "size": "2kg", "weight": 2000, "price": 599.99 }
+    ]
+  },
+  {
+    "Id": 6,
+    "name": "Chamomile Dreams",
+    "type": "tea",
+    "origin": "Egypt",
+    "aromaProfile": ["Floral", "Honey", "Apple", "Soothing"],
+    "flavorNotes": ["Gentle", "Sweet", "Calming", "Smooth"],
+    "description": "Pure Egyptian chamomile flowers creating a naturally caffeine-free herbal tea with soothing properties and honey-like sweetness.",
+    "essence": "This premium chamomile tea is crafted from the finest Egyptian chamomile flowers, known for their superior quality and potent calming properties. The golden infusion releases a gentle, apple-like aroma with subtle honey notes. Perfect for evening relaxation, this naturally sweet herbal tea promotes tranquility and restful sleep while delivering a comforting, smooth taste experience.",
+    "brewingInstructions": "Use boiling water (212°F) and steep for 5-7 minutes. Use 1-2 teaspoons per cup. Cover while steeping to retain essential oils. Naturally caffeine-free, perfect for any time of day.",
+    "imageUrl": "https://images.unsplash.com/photo-1597318985836-5d69b5e66d8b?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 19.99 },
+      { "size": "500g", "weight": 500, "price": 36.99 },
+      { "size": "1kg", "weight": 1000, "price": 67.99 },
+      { "size": "2kg", "weight": 2000, "price": 124.99 }
+    ]
+  },
+  {
+    "Id": 7,
+    "name": "Colombian Supremo",
+    "type": "coffee",
+    "origin": "Colombia",
+    "aromaProfile": ["Chocolate", "Nutty", "Caramel", "Rich"],
+    "flavorNotes": ["Full-bodied", "Chocolatey", "Nutty", "Smooth"],
+    "description": "Premium Colombian coffee from high-altitude farms, featuring rich chocolate and nutty flavors with a smooth, full-bodied finish.",
+    "essence": "Colombian Supremo represents the finest grade of Colombian coffee, sourced from high-altitude farms in the Andes Mountains. This exceptional coffee showcases the perfect balance of acidity and body, with prominent chocolate and nutty flavors complemented by subtle caramel sweetness. The volcanic soil and ideal climate conditions create a coffee with remarkable depth and a satisfying, smooth finish.",
+    "brewingInstructions": "Medium to medium-coarse grind, 195-205°F water. Excellent for drip, French press, or espresso. Use 1:15 ratio for drip methods. Extraction time: 4-6 minutes for French press, 25-30 seconds for espresso.",
+    "imageUrl": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 26.99 },
+      { "size": "500g", "weight": 500, "price": 48.99 },
+      { "size": "1kg", "weight": 1000, "price": 89.99 },
+      { "size": "2kg", "weight": 2000, "price": 169.99 },
+      { "size": "5kg", "weight": 5000, "price": 399.99 }
+    ]
+  },
+  {
+    "Id": 8,
+    "name": "Royal Pu-erh",
+    "type": "tea",
+    "origin": "China",
+    "aromaProfile": ["Earthy", "Woody", "Aged", "Complex"],
+    "flavorNotes": ["Deep", "Earthy", "Smooth", "Aged"],
+    "description": "Aged dark tea from Yunnan province, featuring deep earthy flavors and complex characteristics that develop through traditional fermentation.",
+    "essence": "This exceptional Pu-erh tea represents years of careful aging and traditional fermentation processes. The dark, compressed leaves create a deep, reddish-brown liquor with remarkable complexity and smooth mouthfeel. The earthy, woody flavors are perfectly balanced with subtle sweetness, creating a meditative drinking experience that improves with each steeping.",
+    "brewingInstructions": "Rinse leaves with hot water first, then use 212°F water and steep for 3-5 minutes. Can be re-steeped 6-8 times, with flavor developing and changing with each infusion. Use 1 teaspoon per cup.",
+    "imageUrl": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 49.99 },
+      { "size": "500g", "weight": 500, "price": 92.99 },
+      { "size": "1kg", "weight": 1000, "price": 174.99 },
+      { "size": "2kg", "weight": 2000, "price": 329.99 }
+    ]
+  },
+  {
+    "Id": 9,
+    "name": "Hawaiian Kona",
+    "type": "coffee",
+    "origin": "Hawaii",
+    "aromaProfile": ["Smooth", "Nutty", "Mild", "Sweet"],
+    "flavorNotes": ["Smooth", "Low acidity", "Nutty", "Clean"],
+    "description": "Authentic Hawaiian Kona coffee from the volcanic slopes of Mauna Loa, offering exceptional smoothness and mild, nutty flavors.",
+    "essence": "Grown on the volcanic slopes of Mauna Loa in Hawaii, this authentic Kona coffee benefits from ideal growing conditions including rich volcanic soil, perfect altitude, and consistent climate. The result is an exceptionally smooth coffee with low acidity and subtle nutty flavors. The unique terroir of the Kona district produces a coffee that is both mild and complex, with a clean finish that showcases the purity of its origin.",
+    "brewingInstructions": "Medium grind, 195-200°F water. Pour-over or drip methods recommended. Use 1:16 ratio. Gentle extraction to preserve delicate flavors. Avoid over-extraction to maintain smoothness.",
+    "imageUrl": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 79.99 },
+      { "size": "500g", "weight": 500, "price": 149.99 },
+      { "size": "1kg", "weight": 1000, "price": 279.99 },
+      { "size": "2kg", "weight": 2000, "price": 524.99 }
+    ]
+  },
+  {
+    "Id": 10,
+    "name": "Jasmine Phoenix Pearls",
+    "type": "tea",
+    "origin": "China",
+    "aromaProfile": ["Jasmine", "Floral", "Sweet", "Delicate"],
+    "flavorNotes": ["Floral", "Sweet", "Smooth", "Refreshing"],
+    "description": "Hand-rolled green tea pearls scented with fresh jasmine blossoms, creating an aromatic and delicate floral tea experience.",
+    "essence": "These exquisite tea pearls are crafted through a meticulous process where high-quality green tea leaves are hand-rolled into small pearls and then scented with fresh jasmine blossoms. The tea is layered with jasmine flowers multiple times to achieve the perfect balance of floral aroma and green tea character. Each pearl unfurls beautifully when steeped, releasing an enchanting jasmine fragrance and creating a smooth, refreshing cup.",
+    "brewingInstructions": "Use 175°F water and steep for 2-3 minutes. Use 1 teaspoon (about 6-8 pearls) per cup. Watch the pearls unfurl as they steep. Can be re-steeped 2-3 times with increasing steeping time.",
+    "imageUrl": "https://images.unsplash.com/photo-1563822249830-bf5a2e9b6f7f?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 38.99 },
+      { "size": "500g", "weight": 500, "price": 72.99 },
+      { "size": "1kg", "weight": 1000, "price": 134.99 },
+      { "size": "2kg", "weight": 2000, "price": 254.99 }
+    ]
+  },
+  {
+    "Id": 11,
+    "name": "Guatemala Antigua",
+    "type": "coffee",
+    "origin": "Guatemala",
+    "aromaProfile": ["Spicy", "Smoky", "Chocolate", "Full"],
+    "flavorNotes": ["Full-bodied", "Spicy", "Smoky", "Complex"],
+    "description": "Full-bodied coffee from the Antigua region, featuring spicy and smoky notes with chocolate undertones and exceptional complexity.",
+    "essence": "Guatemala Antigua is grown in the shadow of three volcanoes, where the volcanic soil and unique microclimate create one of the world's most distinctive coffees. The beans develop a characteristic spicy, smoky flavor with rich chocolate undertones and a full, satisfying body. The high altitude and mineral-rich soil contribute to the coffee's complexity and depth, making it a favorite among those who appreciate bold, flavorful coffee.",
+    "brewingInstructions": "Medium to medium-dark grind, 200-205°F water. Excellent for French press, pour-over, or espresso. Use 1:15 ratio for pour-over, 1:12 for espresso. Extraction time: 4-6 minutes for French press.",
+    "imageUrl": "https://images.unsplash.com/photo-1495774856032-8b90bbb32b32?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 29.99 },
+      { "size": "500g", "weight": 500, "price": 54.99 },
+      { "size": "1kg", "weight": 1000, "price": 99.99 },
+      { "size": "2kg", "weight": 2000, "price": 189.99 },
+      { "size": "5kg", "weight": 5000, "price": 449.99 }
+    ]
+  },
+  {
+    "Id": 12,
+    "name": "White Peony",
+    "type": "tea",
+    "origin": "China",
+    "aromaProfile": ["Subtle", "Sweet", "Delicate", "Fresh"],
+    "flavorNotes": ["Light", "Sweet", "Delicate", "Clean"],
+    "description": "Premium white tea with minimal processing, offering a delicate, naturally sweet flavor profile with subtle complexity.",
+    "essence": "White Peony, or Bai Mu Dan, represents the pinnacle of white tea craftsmanship. Made from young tea buds and leaves that are simply withered and dried, this tea retains its natural character and subtle sweetness. The minimal processing preserves the tea's delicate flavor profile, creating a light, refreshing cup with gentle complexity. The silvery-white buds create a pale, golden liquor that embodies purity and elegance.",
+    "brewingInstructions": "Use 175-185°F water and steep for 3-5 minutes. Use 1-2 teaspoons per cup. Can be re-steeped multiple times, with each infusion revealing subtle nuances. Avoid over-steeping to maintain delicate character.",
+    "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80",
+    "prices": [
+      { "size": "250g", "weight": 250, "price": 54.99 },
+      { "size": "500g", "weight": 500, "price": 99.99 },
+      { "size": "1kg", "weight": 1000, "price": 189.99 },
+      { "size": "2kg", "weight": 2000, "price": 359.99 }
+    ]
+  }
+]
