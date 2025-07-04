@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 
 export const useCart = () => {
   const [cart, setCart] = useState([])
+  const [checkoutData, setCheckoutData] = useState({})
 
   useEffect(() => {
     const savedCart = localStorage.getItem('aromacraft-cart')
@@ -10,9 +11,20 @@ export const useCart = () => {
     }
   }, [])
 
-  useEffect(() => {
+useEffect(() => {
     localStorage.setItem('aromacraft-cart', JSON.stringify(cart))
   }, [cart])
+
+  useEffect(() => {
+    const savedCheckoutData = localStorage.getItem('aromacraft-checkout')
+    if (savedCheckoutData) {
+      setCheckoutData(JSON.parse(savedCheckoutData))
+    }
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('aromacraft-checkout', JSON.stringify(checkoutData))
+  }, [checkoutData])
 
   const addToCart = (productId, selectedSize, quantity, unitPrice) => {
     setCart(prevCart => {
@@ -54,11 +66,26 @@ export const useCart = () => {
     setCart([])
   }
 
+const updateCheckoutData = (step, data) => {
+    setCheckoutData(prev => ({
+      ...prev,
+      [step]: data
+    }))
+  }
+
+  const clearCheckoutData = () => {
+    setCheckoutData({})
+    localStorage.removeItem('aromacraft-checkout')
+  }
+
   return {
     cart,
     addToCart,
     updateQuantity,
     removeFromCart,
-    clearCart
+    clearCart,
+    checkoutData,
+    updateCheckoutData,
+    clearCheckoutData
   }
 }

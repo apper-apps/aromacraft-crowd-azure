@@ -1,12 +1,15 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { ToastContainer } from 'react-toastify'
-import Layout from '@/components/organisms/Layout'
-import Home from '@/components/pages/Home'
-import ProductDetail from '@/components/pages/ProductDetail'
-import Cart from '@/components/pages/Cart'
-import Search from '@/components/pages/Search'
-import Category from '@/components/pages/Category'
+import React from "react";
+import { Route, Router, Routes } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import CustomerDetails from "@/components/pages/CustomerDetails";
+import Address from "@/components/pages/Address";
+import CardDetails from "@/components/pages/CardDetails";
+import Layout from "@/components/organisms/Layout";
+import ProductDetail from "@/components/pages/ProductDetail";
+import Cart from "@/components/pages/Cart";
+import Category from "@/components/pages/Category";
+import Search from "@/components/pages/Search";
+import Home from "@/components/pages/Home";
 
 function App() {
   return (
@@ -17,8 +20,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="/search" element={<Search />} />
+<Route path="/search" element={<Search />} />
             <Route path="/category/:type" element={<Category />} />
+            <Route path="/checkout/customer-details" element={<CustomerDetails />} />
+            <Route path="/checkout/address" element={<Address />} />
+            <Route path="/checkout/payment" element={<CardDetails />} />
           </Routes>
         </Layout>
         <ToastContainer

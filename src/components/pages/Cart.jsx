@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import Button from '@/components/atoms/Button'
 import CartItem from '@/components/molecules/CartItem'
@@ -12,7 +12,7 @@ import ApperIcon from '@/components/ApperIcon'
 const Cart = () => {
   const { cart, clearCart } = useCart()
   const { products } = useProducts()
-
+  const navigate = useNavigate()
   const cartWithProducts = cart.map(item => ({
     ...item,
     product: products.find(p => p.Id === item.productId)
@@ -27,8 +27,8 @@ const Cart = () => {
     toast.success('Cart cleared')
   }
 
-  const handleCheckout = () => {
-    toast.success('Checkout functionality would be implemented here')
+const handleCheckout = () => {
+    navigate('/checkout/customer-details')
   }
 
   const formatPrice = (price) => {
