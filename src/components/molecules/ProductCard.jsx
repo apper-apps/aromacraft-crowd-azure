@@ -117,42 +117,42 @@ function ProductCard({ product }) {
               </Badge>
             </div>
           )}
-        </div>
-          <div className="p-6">
-            <h3 className="text-xl font-display font-bold text-white mb-2 group-hover:text-accent transition-colors">
-              {product.name}
-            </h3>
-            
-            <p className="text-white/80 text-sm mb-3 line-clamp-2">
-              {product.essence}
-            </p>
-            
-            <div className="flex flex-wrap gap-1 mb-4">
-              {product.aromaProfile.slice(0, 3).map((aroma, index) => (
-                <Badge key={index} variant="outline" className="text-xs">
-                  {aroma}
-                </Badge>
-              ))}
+</div>
+        
+        <div className="p-6">
+          <h3 className="text-xl font-display font-bold text-white mb-2 group-hover:text-accent transition-colors">
+            {product.name}
+          </h3>
+          
+          <p className="text-white/80 text-sm mb-3 line-clamp-2">
+            {product.essence}
+          </p>
+          
+          <div className="flex flex-wrap gap-1 mb-4">
+            {product.aromaProfile.slice(0, 3).map((aroma, index) => (
+              <Badge key={index} variant="outline" className="text-xs">
+                {aroma}
+              </Badge>
+            ))}
+          </div>
+          
+          <div className="flex items-center justify-between">
+            <div className="flex flex-col">
+              <span className="text-white/60 text-sm">Starting from</span>
+              <span className="text-2xl font-bold text-gradient">
+                {formatPrice(product.prices[0].price)}
+              </span>
             </div>
             
-            <div className="flex items-center justify-between">
-              <div className="flex flex-col">
-                <span className="text-white/60 text-sm">Starting from</span>
-                <span className="text-2xl font-bold text-gradient">
-                  {formatPrice(product.prices[0].price)}
-                </span>
-              </div>
-              
-              <Button
-                onClick={handleQuickAdd}
-                variant="accent"
-                size="sm"
-                icon="Plus"
-                className="shrink-0"
-              >
-                Quick Add
-              </Button>
-            </div>
+            <Button
+              onClick={handleQuickAdd}
+              variant="accent"
+              size="sm"
+              icon="Plus"
+              className="shrink-0"
+            >
+              Quick Add
+            </Button>
           </div>
         </div>
       </Link>
